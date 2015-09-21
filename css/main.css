@@ -36,6 +36,32 @@ html, body, #map_canvas {
   padding-right: 0;
 }
 
+.about {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.about .btn {
+    font-weight: 600;
+    border-radius: 0;
+    padding: 16px 26px;
+    font-size: 16px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+}
+
+
+.about h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 42px 0;
+}
+
 #map_canvas {
   position: relative;
 }
